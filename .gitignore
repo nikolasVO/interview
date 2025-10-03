@@ -1,0 +1,27 @@
+# venv
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Local data / logs
+*.log
+interview.db
+
+# Env & secrets
+.env
+.env.*
+!.env.example  # разрешаем шаблон
+
+# OS junk
+.DS_Store
+Thumbs.db
